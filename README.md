@@ -12,12 +12,6 @@ Continuous Integration (CI) automatically checks code quality and runs tests on 
 
 Continuous Delivery/Deployment (CD) ensures your code is always in a deployable state. It tests deployments to environments similar to production, helping verify that new changes can be safely released.
 
-## Prerequisites
-
-- A GitHub repository
-- Basic knowledge of YAML syntax
-- Access to repository settings for configuring Actions
-
 ## Usage
 
 1. Create a workflow file in `.github/workflows/` (e.g., `ci.yml`)
