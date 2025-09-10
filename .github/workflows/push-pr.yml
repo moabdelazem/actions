@@ -5,6 +5,8 @@ on:
       - "release/**"
     paths:
       - "src/**"
+      - "package.json"
+      - "!README.md"
   pull_request:
     branches:
       - main
