@@ -1,0 +1,20 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "GitHub Actions enables automation of software workflows, such as building, testing, and deploying code directly from your GitHub repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash ./src/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moabdelazem/actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moabdelazem/actions/issues"
+  },
+  "homepage": "https://github.com/moabdelazem/actions#readme"
+}
