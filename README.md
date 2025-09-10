@@ -152,3 +152,15 @@ Artifacts are files produced by a workflow that you can download or use in other
     name: build-files
     path: dist/
 ```
+
+## Schedule Tasks
+
+```
+*    *    *    *    *
+│    │    │    │    │
+│    │    │    │    └── Day of week (0-6, Sun=0)
+│    │    │    └───── Month (1-12)
+│    │    └────────── Day of month (1-31)
+│    └─────────────── Hour (0-23)
+└──────────────────── Minute (0-59)
+```
