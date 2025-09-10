@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploying the application
-        run: echo "The Application is Deployed, wink wink!"
+        run: echo "The Application is Deployed in ${{ inputs.environment }} state, wink wink!"
