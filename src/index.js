@@ -4,6 +4,6 @@ function fetchData() {
 
 module.exports = { fetchData };
 
-// if (require.main === module) {
-//   console.log(fetchData());
-// }
+if (require.main === module) {
+  console.log(fetchData());
+}
